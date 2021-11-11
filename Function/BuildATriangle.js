@@ -29,7 +29,6 @@ function buildTriangle2(length){
     str+= "\n"
   }
   return str;
-  
 }
 
 
