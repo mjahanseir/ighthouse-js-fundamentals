@@ -3,12 +3,14 @@ function calculateRectangleArea(length, width) {
     return undefined;
   return length * width;
 }
+
 function calculateTriangleArea(base, height) {
   if ( base < 0 || height <0 )
     return undefined;
   return  base * height / 2
   
 }
+
 function calculateCircleArea(radius) {
   if ( radius < 0  )
     return undefined;

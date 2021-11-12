@@ -6,10 +6,8 @@ console.log(howManyHundreds(99), "=?", 0);
 console.log(howManyHundreds(0), "=?", 0);
 
 function howManyHundreds(number) {
-  let divider = number / 100;
-
-  if (divider >= 1)
-    return divider;
-  
-  return 0;
+//   if (number % 100 === 0)
+//     return number / 100;
+//   else
+  return (number - number % 100) / 100;
 }
