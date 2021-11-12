@@ -1,1 +1,1 @@
-"# ighthouse-js-fundamentals" 
+"# Lighthouse-js-fundamentals" 
